@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    background: rgb(25,144,201);
+    background: linear-gradient(153deg, rgba(25,144,201,0.7170576848903624) 0%, rgba(42,219,87,0.8403069846102503) 100%);
+    min-height: 100vh;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.dashboard {
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 90%, rgba(92,70,70,1) 99%);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 20vw;
+    min-height: 100vh;
+    column-gap: 10rem;
+    border-radius: 2%;
+    overflow: hidden;
+}
+.logotext {
+    width: 13vw;
+    min-height: 40vh;
+}
+.Logo{
+    width: 12vw;
+    border-radius: 30%;
+    position: relative;
+    left: 2rem;
+    
+}
+.txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 3rem;
+
+}
+
+.Profile, .Youtube, .Logout {
+min-width: 8vw;
+min-height: 18vh;
+position: relative;
+left: 3rem;
+}
+
+.button {
+    background: lightcyan;
+    border-radius: 25%;
+    width: 10vw;
+    height: 10vh;
+} 
+.button:hover {
+    background: lightcoral;
+}
+.button:focus {
+    outline: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 2px yellowgreen;
+    transition: 0.7s;    
+}
+.button:active {
+    text-decoration: underline;
+}
